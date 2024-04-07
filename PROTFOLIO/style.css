@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(13, 11, 11);
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(20, 20, 20);
+}
+
+.l {
+    font-size: 20px;
+}
+
+.left .btn {
+    cursor: pointer;
+    color: white;
+    padding: 11px;
+    background-color: rgb(36 36 103);
+    border-radius: 50px;
+}
+.btn:hover{
+    background: #7eb6fc;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 7px 0px 49px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(189, 172, 172);
+}
+
+nav ul li a:hover {
+    color: white;
+
+}
+
+.container {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 122px 0;
+
+}
+
+.container>div {
+    width: 30%;
+}
+
+.right img {
+    margin: 0px -50px;
+    width: 110%;
+}
+
+.left {
+    font-size: 2.2rem;
+
+}
+
+.name {
+    color: rgb(17, 17, 203);
+}
+
+.conatiner2 {
+    color: white;
+    height: 150vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.conatiner2 h2 {
+    color: rgb(168, 155, 155);
+}
+
+.conatiner2 .over {
+    color: white;
+    font-size: 3rem;
+
+}
+
+.conatiner2 div {
+    color: rgb(211, 208, 208);
+}
+
+/* .box{
+       margin: 21px 0; */
+/* }
+.box1 ul{
+    margin: -2px 0px 0px -90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.box1 ul li{
+    list-style: none;
+   
+} */
+/* .box2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.box2 ul li{
+    margin: 217px 322px 0px -7px;
+    list-style: none;
+    height: 5px;
+    width: 5px;
+} */
+.conatiner2 .box{
+    margin-top: 18px;
+}
+.conatiner2 .boxx {
+    margin-top: 25px;
+    color: white;
+    font-size: 2.1rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background: #0056b3;
+}
